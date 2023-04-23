@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import '../../../Readarticle.dart';
 import '../../../constant/images.dart';
 import '../../../constant/style.dart';
-import '../Home/play_game.dart';
+import '../play_game.dart';
 import '../../../referral_task.dart';
 import '../../../versionfile.dart';
-import '../Home/video.dart';
+import '../video.dart';
 import '../../../widgets/myspacer.dart';
 
 Widget topOffers() {

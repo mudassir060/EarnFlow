@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
-import 'constant/images.dart';
-import 'constant/style.dart';
-import 'widgets/backButton.dart';
-import 'widgets/cardwidget.dart';
-import 'widgets/myspacer.dart';
+import '../../constant/images.dart';
+import '../../constant/style.dart';
+import '../../widgets/backButton.dart';
+import '../../widgets/cardwidget.dart';
+import '../../widgets/myspacer.dart';
 
 class game_page extends StatefulWidget {
   const game_page({super.key});
