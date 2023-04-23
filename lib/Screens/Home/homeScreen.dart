@@ -73,6 +73,7 @@ class _homeScreenState extends State<homeScreen> {
                           height: 140,
                           width: vwidth,
                           child: ListView.builder(
+                              physics: const AlwaysScrollableScrollPhysics(),
                               shrinkWrap: true,
                               scrollDirection: Axis.horizontal,
                               padding: const EdgeInsets.all(8.0),

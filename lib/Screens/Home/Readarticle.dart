@@ -4,6 +4,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 
 import '../../constant/images.dart';
 import '../../constant/style.dart';
+import '../../widgets/backButton.dart';
 import '../../widgets/cardwidget.dart';
 import '../../widgets/myspacer.dart';
 
@@ -29,10 +30,7 @@ class _readState extends State<read> {
               padding: const EdgeInsets.only(top: 50, left: 20),
               child: Row(
                 children: [
-                  const Icon(
-                    Icons.arrow_back_ios,
-                    color: IconColor,
-                  ),
+                  backButon(context),
                   myspacer(0.0, 20.0),
                   const Text(
                     "Read Article",
