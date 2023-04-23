@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:login_project/constant/images.dart';
-import 'package:login_project/constant/style.dart';
-import 'package:login_project/widgets/myspacer.dart';
+
+import '../constant/images.dart';
+import '../constant/style.dart';
 
 Widget dash_widget(icon, title_, number,vwidth,vheight,title_2) {
   return Container(

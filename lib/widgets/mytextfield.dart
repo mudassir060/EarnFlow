@@ -1,7 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:login_project/constant/style.dart';
-import 'package:login_project/widgets/myspacer.dart';
+
+import '../constant/style.dart';
+import 'myspacer.dart';
 
 Widget mytextfield(title, ctrl, vwidth, icon, endicon, {required TextInputType keyboardType, 
 String? Function(dynamic)? valid}) 

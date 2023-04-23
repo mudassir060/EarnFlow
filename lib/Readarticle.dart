@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:login_project/constant/images.dart';
-import 'package:login_project/widgets/myspacer.dart';
 
+import 'constant/images.dart';
 import 'constant/style.dart';
 import 'widgets/cardwidget.dart';
+import 'widgets/myspacer.dart';
 
 class read extends StatefulWidget {
   const read({super.key});

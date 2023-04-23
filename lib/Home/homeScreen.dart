@@ -1,10 +1,10 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
-import 'package:login_project/constant/images.dart';
-import 'package:login_project/widgets/dashboard.dart';
-import 'package:login_project/widgets/myspacer.dart';
+import '../constant/images.dart';
 import '../constant/style.dart';
+import '../widgets/dashboard.dart';
+import '../widgets/myspacer.dart';
 import 'widget/topBar.dart';
 import 'widget/topOffers.dart';
 

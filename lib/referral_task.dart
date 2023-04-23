@@ -1,9 +1,9 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
-import 'package:login_project/widgets/myspacer.dart';
 
 import 'constant/style.dart';
+import 'widgets/myspacer.dart';
 import 'widgets/refer_card_widget.dart';
 
 class referral extends StatefulWidget {

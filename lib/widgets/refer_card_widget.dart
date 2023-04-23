@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:login_project/constant/images.dart';
-import 'package:login_project/widgets/myspacer.dart';
-
+import '../constant/images.dart';
 import '../constant/style.dart';
+import 'myspacer.dart';
 
 Widget ref_Card_widget(title1, title2,title3, number, vwidth, bool value) {
   return Container(

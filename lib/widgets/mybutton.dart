@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:login_project/constant/style.dart';
+
+import '../constant/style.dart';
 
 Widget mybutton(
    {required  width, required Null Function() function, required String name,required bool color,required bool textcolor})

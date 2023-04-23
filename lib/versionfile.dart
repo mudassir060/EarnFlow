@@ -1,9 +1,10 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
-import 'package:login_project/constant/images.dart';
-import 'package:login_project/widgets/mybutton.dart';
-import 'package:login_project/widgets/myspacer.dart';
+
+import 'constant/images.dart';
+import 'widgets/mybutton.dart';
+import 'widgets/myspacer.dart';
 
 class version_file extends StatelessWidget {
   const version_file({super.key});
