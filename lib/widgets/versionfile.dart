@@ -2,9 +2,9 @@
 
 import 'package:flutter/material.dart';
 
-import 'constant/images.dart';
-import 'widgets/mybutton.dart';
-import 'widgets/myspacer.dart';
+import '../constant/images.dart';
+import 'mybutton.dart';
+import 'myspacer.dart';
 
 class version_file extends StatelessWidget {
   const version_file({super.key});

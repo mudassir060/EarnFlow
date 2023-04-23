@@ -2,12 +2,12 @@
 
 import 'package:flutter/material.dart';
 
-import '../../../Readarticle.dart';
+import '../Readarticle.dart';
 import '../../../constant/images.dart';
 import '../../../constant/style.dart';
 import '../play_game.dart';
-import '../../../referral_task.dart';
-import '../../../versionfile.dart';
+import '../referral_task.dart';
+import '../../../widgets/versionfile.dart';
 import '../video.dart';
 import '../../../widgets/myspacer.dart';
 

@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 
-import 'constant/style.dart';
-import 'widgets/backButton.dart';
-import 'widgets/myspacer.dart';
-import 'widgets/refer_card_widget.dart';
+import '../../constant/style.dart';
+import '../../widgets/backButton.dart';
+import '../../widgets/myspacer.dart';
+import '../../widgets/refer_card_widget.dart';
 
 class referral extends StatefulWidget {
   const referral({super.key});
