@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import 'constant/style.dart';
+import 'widgets/backButton.dart';
 import 'widgets/myspacer.dart';
 import 'widgets/refer_card_widget.dart';
 
@@ -25,10 +26,7 @@ class _referralState extends State<referral> {
             padding: const EdgeInsets.only(top: 50, left: 20),
             child: Row(
               children: [
-                const Icon(
-                  Icons.arrow_back_ios,
-                  color: IconColor,
-                ),
+               backButon(context),
                 myspacer(0.0, 20.0),
                 const Text(
                   "Referral Task",
