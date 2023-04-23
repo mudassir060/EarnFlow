@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
-
 import 'constant/images.dart';
 import 'constant/style.dart';
+import 'widgets/backButton.dart';
 import 'widgets/cardwidget.dart';
 import 'widgets/myspacer.dart';
 
@@ -21,35 +21,33 @@ class _game_pageState extends State<game_page> {
     var vheight = MediaQuery.of(context).size.height;
     var vwidth = MediaQuery.of(context).size.width;
 
-    return SafeArea(
-      child: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.only(top: 50, left: 20),
-            child: Row(
-              children: [
-                const Icon(
-                  Icons.arrow_back_ios,
-                  color: IconColor,
-                ),
-                myspacer(0.0, 20.0),
-                const Text(
-                  "Play Games",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-                ),
-              ],
+    return Scaffold(
+      body: SafeArea(
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.only(top: 50, left: 20),
+              child: Row(
+                children:  [
+                 backButon(context),
+                  const Text(
+                    "Play Games",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                  ),
+                ],
+              ),
             ),
-          ),
-          myspacer(20.0, 0.0),
-          Card_widget(game_img1, "Guys Tumple Guts", "0.5", vwidth, vheight,
-              "Play and earn upto 10 EF", true),
-          Card_widget(game_img2, "Guys Tumple Guts", "0.5", vwidth, vheight,
-              "Play and earn upto 10 EF", true),
-          Card_widget(game_img3, "Guys Tumple Guts", "0.5", vwidth, vheight,
-              "Play and earn upto 10 EF", true),
-          Card_widget(game_img4, "Guys Tumple Guts", "0.5", vwidth, vheight,
-              "Play and earn upto 10 EF", true),
-        ],
+            myspacer(20.0, 0.0),
+            Card_widget(game_img1, "Guys Tumple Guts", "0.5", vwidth, vheight,
+                "Play and earn upto 10 EF", true),
+            Card_widget(game_img2, "Guys Tumple Guts", "0.5", vwidth, vheight,
+                "Play and earn upto 10 EF", true),
+            Card_widget(game_img3, "Guys Tumple Guts", "0.5", vwidth, vheight,
+                "Play and earn upto 10 EF", true),
+            Card_widget(game_img4, "Guys Tumple Guts", "0.5", vwidth, vheight,
+                "Play and earn upto 10 EF", true),
+          ],
+        ),
       ),
     );
   }

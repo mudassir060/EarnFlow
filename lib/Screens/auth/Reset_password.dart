@@ -1,11 +1,11 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
-import 'constant/images.dart';
+import '../../constant/images.dart';
 import 'sign_in.dart';
-import 'widgets/mybutton.dart';
-import 'widgets/myspacer.dart';
-import 'widgets/mytextfield.dart';
+import '../../widgets/mybutton.dart';
+import '../../widgets/myspacer.dart';
+import '../../widgets/mytextfield.dart';
 
 class Reset_password extends StatefulWidget {
   const Reset_password({super.key});

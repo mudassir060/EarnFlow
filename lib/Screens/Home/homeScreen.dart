@@ -1,12 +1,12 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
-import '../constant/images.dart';
-import '../constant/style.dart';
-import '../widgets/dashboard.dart';
-import '../widgets/myspacer.dart';
-import 'widget/topBar.dart';
-import 'widget/topOffers.dart';
+import '../../constant/images.dart';
+import '../../constant/style.dart';
+import '../../widgets/dashboard.dart';
+import '../../widgets/myspacer.dart';
+import '../widget/topBar.dart';
+import '../widget/topOffers.dart';
 
 class homeScreen extends StatefulWidget {
   const homeScreen({super.key});

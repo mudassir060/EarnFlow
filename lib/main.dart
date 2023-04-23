@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Home/homeScreen.dart';
-import 'signup.dart';
+import 'Screens/Home/homeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,18 +7,12 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-     
-     debugShowCheckedModeBanner: false,
-      home: Scaffold(
-       body: homeScreen(),
-      )
-    );
+    return  MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          body: homeScreen(),
+        ));
   }
 }
-
- 

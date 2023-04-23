@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'constant/images.dart';
-import 'Home/homeScreen.dart';
+import '../../constant/images.dart';
+import '../Home/homeScreen.dart';
 import 'sign_in.dart';
-import 'widgets/mybutton.dart';
-import 'widgets/myspacer.dart';
-import 'widgets/mytextfield.dart';
+import '../../widgets/mybutton.dart';
+import '../../widgets/myspacer.dart';
+import '../../widgets/mytextfield.dart';
 
 class signUp_page extends StatefulWidget {
   const signUp_page({super.key});

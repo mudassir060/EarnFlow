@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'Reset_password.dart';
-import 'constant/images.dart';
-import 'constant/style.dart';
+import '../../constant/images.dart';
+import '../../constant/style.dart';
 import 'signup.dart';
-import 'widgets/mybutton.dart';
-import 'widgets/myspacer.dart';
-import 'widgets/mytextfield.dart';
+import '../../widgets/mybutton.dart';
+import '../../widgets/myspacer.dart';
+import '../../widgets/mytextfield.dart';
 
 class sign_in extends StatefulWidget {
   const sign_in({super.key});

@@ -30,7 +30,7 @@ class _referralState extends State<referral> {
                   color: IconColor,
                 ),
                 myspacer(0.0, 20.0),
-                Text(
+                const Text(
                   "Referral Task",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                 ),
