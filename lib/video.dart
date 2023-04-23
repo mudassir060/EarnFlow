@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+// ignore_for_file: camel_case_types
 
+import 'package:flutter/material.dart';
 import 'constant/images.dart';
 import 'widgets/cardwidget.dart';
 import 'widgets/myspacer.dart';
