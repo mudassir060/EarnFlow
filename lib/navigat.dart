@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:circular_bottom_navigation/circular_bottom_navigation.dart';
 
 import 'Screens/Home/homeScreen.dart';
-
+import 'Screens/Leaderboard/LeaderboardScreen.dart';
+import 'Screens/Profile/profileScreen.dart';
 
 class navigat extends StatefulWidget {
   navigat({
@@ -45,7 +46,7 @@ class _navigatState extends State<navigat> {
       Colors.red,
       circleStrokeColor: Colors.black,
     ),
- ]);
+  ]);
 
   late CircularBottomNavigationController _navigationController;
 
@@ -77,13 +78,10 @@ class _navigatState extends State<navigat> {
         page = homeScreen();
         break;
       case 1:
-        page = homeScreen();
+        page = LeaderboardScreen();
         break;
       case 2:
-        page = homeScreen();
-        break;
-      case 3:
-        page = homeScreen();
+        page = profileScreen();
         break;
       default:
         page = homeScreen();
