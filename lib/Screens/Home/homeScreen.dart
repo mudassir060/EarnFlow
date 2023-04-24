@@ -84,7 +84,8 @@ class _homeScreenState extends State<homeScreen> {
                                       Stack(
                                         children: [
                                           Padding(
-                                            padding: const EdgeInsets.only(top: 20),
+                                            padding:
+                                                const EdgeInsets.only(top: 20),
                                             child: SizedBox(
                                               width: 300,
                                               height: 100,
@@ -92,7 +93,8 @@ class _homeScreenState extends State<homeScreen> {
                                               child: Card(
                                                 shape: RoundedRectangleBorder(
                                                     borderRadius:
-                                                        BorderRadius.circular(10),
+                                                        BorderRadius.circular(
+                                                            10),
                                                     side: const BorderSide(
                                                         color: borderColor,
                                                         width: 1)),
@@ -126,9 +128,9 @@ class _homeScreenState extends State<homeScreen> {
                                               ],
                                             ),
                                           ),
-                                      ],
+                                        ],
                                       ),
-                                         Positioned(
+                                      Positioned(
                                         left: 40,
                                         top: 75,
                                         child: Row(
@@ -140,7 +142,7 @@ class _homeScreenState extends State<homeScreen> {
                                                       BorderRadius.circular(5)),
                                               height: 20,
                                               width: 40,
-                                              child:  Center(
+                                              child: Center(
                                                   child: Text(
                                                 "#$index",
                                                 style: const TextStyle(
@@ -167,7 +169,7 @@ class _homeScreenState extends State<homeScreen> {
                                           ],
                                         ),
                                       )
-                                   ],
+                                    ],
                                   ),
                                 ],
                               );
