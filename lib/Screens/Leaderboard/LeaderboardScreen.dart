@@ -19,48 +19,52 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
 
     return Scaffold(
       body: SafeArea(
-        child: Container(
-          height: 200,
-          width: vwidth,
-          decoration: BoxDecoration(
-            borderRadius: const BorderRadius.only(
-                bottomLeft: Radius.circular(40.0),
-                bottomRight: Radius.circular(40.0)),
-            color: Colors.grey.shade300,
-          ),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              const CircleAvatar(
-                backgroundImage: AssetImage(
-                  profile,
-                ),
-                radius: 50,
+        child: Column(
+          children: [
+            Container(
+              width: vwidth,
+              padding: const EdgeInsets.only(top: 50, bottom: 20),
+              decoration: BoxDecoration(
+                borderRadius: const BorderRadius.only(
+                    bottomLeft: Radius.circular(40.0),
+                    bottomRight: Radius.circular(40.0)),
+                color: Colors.grey.shade300,
               ),
-              Column(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image.asset(
-                    goldCrown,
-                    width: 80,
+                 topImg("Thomas Shelby",6565)
+           ,       Column(
+                    children: [
+                      Image.asset(
+                        goldCrown,
+                        width: 80,
+                      ),
+                 topImg("Thomas Shelby",6565)
+                    ],
                   ),
-                  const CircleAvatar(
-                    backgroundImage: AssetImage(
-                      profile,
-                    ),
-                    radius: 50,
-                  ),
+                 topImg("Thomas Shelby",6565)
                 ],
               ),
-              const CircleAvatar(
-                backgroundImage: AssetImage(
-                  profile,
-                ),
-                radius: 50,
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
   }
+}
+
+Widget topImg(name, point) {
+  return Column(
+    children:  [
+      const CircleAvatar(
+        backgroundImage: AssetImage(
+          profile,
+        ),
+        radius: 50,
+      ),
+      Text(name.toString()),
+      Text(point.toString()),
+    ],
+  );
 }
