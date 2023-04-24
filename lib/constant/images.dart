@@ -49,6 +49,7 @@ const String fail="assets/Icons/fail.png";
 
 const String loading="assets/Icons/loading.gif";
 
+const String goldCrown="assets/Icons/golden-crown.png";
 
 
 
