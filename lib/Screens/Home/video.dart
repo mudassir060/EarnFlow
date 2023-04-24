@@ -23,18 +23,15 @@ class _videoState extends State<video> {
       child: Scaffold(
         body: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(top: 50, left: 20),
-              child: Row(
-                children: [
-                  backButon(context),
-                  myspacer(0.0, 20.0),
-                  const Text(
-                    "Videos",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-                  ),
-                ],
-              ),
+            Row(
+              children: [
+                backButon(context),
+                myspacer(0.0, 20.0),
+                const Text(
+                  "Videos",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                ),
+              ],
             ),
             myspacer(20.0, 0.0),
             Card_widget(addmob, "AdMob", "2", vwidth, vheight, "", false),

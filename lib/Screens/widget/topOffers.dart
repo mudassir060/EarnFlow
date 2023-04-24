@@ -1,7 +1,5 @@
 // ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
-
 import '../Home/Readarticle.dart';
 import '../../../constant/images.dart';
 import '../../../constant/style.dart';
@@ -16,11 +14,11 @@ Widget topOffers() {
     {"page": const game_page(), "title": "GAMES", "img": game},
     {"page": const video(), "title": "VIDEOS", "img": video_img},
     {"page": const version_file(), "title": "OVERWALLS", "img": overwalls},
-    {"page": const referral(), "title": "VISIT & EARN", "img": visitEarn},
+    {"page": const read(), "title": "VISIT & EARN", "img": visitEarn},
     {"page": const referral(), "title": "YOUTUBE", "img": youtube},
-    {"page": const read(), "title": "APP OFFER", "img": app_offer},
-    {"page": const read(), "title": "FURTUNE SPIN", "img": spin},
-    {"page": const read(), "title": "REFER TASK", "img": refer},
+    {"page": const version_file(), "title": "APP OFFER", "img": app_offer},
+    {"page": const version_file(), "title": "FURTUNE SPIN", "img": spin},
+    {"page": const referral(), "title": "REFER TASK", "img": refer},
   ];
 
   return Padding(

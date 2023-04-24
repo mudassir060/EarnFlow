@@ -25,19 +25,16 @@ class _game_pageState extends State<game_page> {
       body: SafeArea(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(top: 50, left: 20),
-              child: Row(
-                children:  [
-                 backButon(context),
-                  const Text(
-                    "Play Games",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-                  ),
-                ],
-              ),
+            Row(
+              children:  [
+               backButon(context),
+                const Text(
+                  "Play Games",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                ),
+              ],
             ),
-            myspacer(20.0, 0.0),
+            myspacer(10.0, 0.0),
             Card_widget(game_img1, "Guys Tumple Guts", "0.5", vwidth, vheight,
                 "Play and earn upto 10 EF", true),
             Card_widget(game_img2, "Guys Tumple Guts", "0.5", vwidth, vheight,

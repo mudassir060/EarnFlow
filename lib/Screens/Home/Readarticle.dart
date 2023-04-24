@@ -22,22 +22,18 @@ class _readState extends State<read> {
     var vwidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.only(top: 10),
+      body: SafeArea(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(top: 50, left: 20),
-              child: Row(
-                children: [
-                  backButon(context),
-                  myspacer(0.0, 20.0),
-                  const Text(
-                    "Read Article",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-                  ),
-                ],
-              ),
+            Row(
+              children: [
+                backButon(context),
+                myspacer(0.0, 20.0),
+                const Text(
+                  "Read Article",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                ),
+              ],
             ),
             myspacer(20.0, 0.0),
             Card_widget(read_img, "How to preserve fruits..", "0.5", vwidth,
