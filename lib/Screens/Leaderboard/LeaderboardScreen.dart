@@ -33,20 +33,41 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                 topImg("Thomas Shelby",6565)
-           ,       Column(
+                  topImg("Thomas Shelby", 6565),
+                  Column(
                     children: [
                       Image.asset(
                         goldCrown,
                         width: 80,
                       ),
-                 topImg("Thomas Shelby",6565)
+                      topImg("Thomas Shelby", 6565)
                     ],
                   ),
-                 topImg("Thomas Shelby",6565)
+                  topImg("Thomas Shelby", 6565)
                 ],
               ),
             ),
+            Card(
+              child: ListTile(
+                leading: const CircleAvatar(
+                  backgroundImage: AssetImage(
+                    profile,
+                  ),
+                  radius: 25,
+                ),
+                title: const Text("Ali Khan"),
+                subtitle: Row(
+                  children: [
+                    Image.asset(
+                      gold_coin,
+                      height: 20,
+                    ),
+                    const Text("15421 (Pakistan)🇵🇰"),
+                  ],
+                ),
+                trailing: const Text("No. 4"),
+              ),
+            )
           ],
         ),
       ),
@@ -56,7 +77,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
 
 Widget topImg(name, point) {
   return Column(
-    children:  [
+    children: [
       const CircleAvatar(
         backgroundImage: AssetImage(
           profile,
