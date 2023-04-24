@@ -6,7 +6,7 @@ import '../../constant/style.dart';
 import '../../widgets/dashboard.dart';
 import '../../widgets/myspacer.dart';
 import 'widget/topBar.dart';
-import '../widget/topOffers.dart';
+import 'widget/topOffers.dart';
 
 class homeScreen extends StatefulWidget {
   const homeScreen({super.key});
