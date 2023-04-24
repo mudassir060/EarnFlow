@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
-import '../../../constant/images.dart';
-import '../../../constant/style.dart';
+import '../../../../constant/images.dart';
+import '../../../../constant/style.dart';
 
 Widget topBar() {
   return Card(

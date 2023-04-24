@@ -5,7 +5,7 @@ import '../../constant/images.dart';
 import '../../constant/style.dart';
 import '../../widgets/dashboard.dart';
 import '../../widgets/myspacer.dart';
-import '../widget/topBar.dart';
+import 'widget/topBar.dart';
 import '../widget/topOffers.dart';
 
 class homeScreen extends StatefulWidget {

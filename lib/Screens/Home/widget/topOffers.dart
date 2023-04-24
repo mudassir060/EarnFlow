@@ -1,15 +1,13 @@
 // ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
-
-import '../Readarticle.dart';
 import '../../../constant/images.dart';
 import '../../../constant/style.dart';
+import '../../../widgets/myspacer.dart';
+import '../../../widgets/versionfile.dart';
+import '../Readarticle.dart';
 import '../play_game.dart';
 import '../referral_task.dart';
-import '../../../widgets/versionfile.dart';
 import '../video.dart';
-import '../../../widgets/myspacer.dart';
 
 Widget topOffers() {
   List offers = [
@@ -67,8 +65,7 @@ Widget topOffers() {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
                             side: BorderSide(
-                                color: borderColor.withOpacity(0.5),
-                                width: 1)),
+                                color: borderColor.withOpacity(0.5), width: 1)),
                         child: Padding(
                           padding: const EdgeInsets.only(top: 10),
                           child: Column(
