@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../constant/images.dart';
+import '../../navigat.dart';
 import '../Home/homeScreen.dart';
 import 'sign_in.dart';
 import '../../widgets/mybutton.dart';
@@ -151,7 +152,7 @@ class _signUp_pageState extends State<signUp_page> {
                         function: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => homeScreen()),
+                            MaterialPageRoute(builder: (context) => navigat()),
                           );
                         },
                         name: "Create",

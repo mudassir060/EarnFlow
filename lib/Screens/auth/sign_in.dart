@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../navigat.dart';
 import 'Reset_password.dart';
 import '../../constant/images.dart';
 import '../../constant/style.dart';
@@ -107,7 +108,7 @@ class _sign_inState extends State<sign_in> {
                       function: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => sign_in()),
+                          MaterialPageRoute(builder: (context) => navigat()),
                         );
                       },
                       name: "Login",
