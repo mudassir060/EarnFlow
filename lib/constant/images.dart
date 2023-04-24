@@ -47,6 +47,7 @@ const String refer_="assets/images/refer_.jpg";
 
 const String fail="assets/Icons/fail.png";
 
+const String loading="assets/Icons/loading.gif";
 
 
 

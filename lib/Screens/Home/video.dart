@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../constant/images.dart';
 import '../../widgets/backButton.dart';
 import '../../widgets/cardwidget.dart';
+import '../../widgets/loadingData.dart';
 import '../../widgets/myspacer.dart';
 
 class video extends StatefulWidget {
@@ -41,7 +42,7 @@ class _videoState extends State<video> {
             Card_widget(
                 add_Colony, "AdColony", "0.5", vwidth, vheight, "", false),
             Card_widget(unity, "Unity", "2", vwidth, vheight, "", false)
-          ],
+        , loadingData() ],
         ),
       ),
     );
