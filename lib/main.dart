@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'Screens/Home/homeScreen.dart';
-import 'Screens/auth/sign_in.dart';
 import 'navigat.dart';
 
 void main() {
@@ -13,13 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: 
-        Directionality(
+        home: Directionality(
           // use this property to change direction in whole app
           // CircularBottomNavigation will act accordingly
           textDirection: TextDirection.ltr,
-          child:
-           sign_in(),
+          child: navigat(),
         ));
   }
 }
