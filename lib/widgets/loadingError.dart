@@ -6,7 +6,7 @@ import '../constant/images.dart';
 
 Widget loadingError() {
   return Card(
-    child: SizedBox(
+    child: SizedBox(   
       height: 200,
       width: 200,
       child: Column(
