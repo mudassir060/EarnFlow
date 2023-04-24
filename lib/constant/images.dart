@@ -45,6 +45,7 @@ const String spin="assets/images/furniture_spin.jpg";
 const String refer_="assets/images/refer_.jpg";
 
 
+const String fail="assets/Icons/fail.png";
 
 
 
