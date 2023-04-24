@@ -75,16 +75,16 @@ class _navigatState extends State<navigat> {
     Widget page;
     switch (selectedPos) {
       case 0:
-        page = homeScreen();
+        page = const homeScreen();
         break;
       case 1:
-        page = LeaderboardScreen();
+        page = const LeaderboardScreen();
         break;
       case 2:
-        page = profileScreen();
+        page = const profileScreen();
         break;
       default:
-        page = homeScreen();
+        page = const homeScreen();
         break;
     }
 
