@@ -34,7 +34,6 @@ class _homeScreenState extends State<homeScreen> {
         child: SingleChildScrollView(
             child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                //mainAxisAlignment: MainAxisAlignment.start,
                 children: [
           topBar(),
           myspacer(5.0, 0.0),
