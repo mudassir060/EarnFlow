@@ -64,7 +64,7 @@ Widget topImg(name, point) {
     children: [
       const CircleAvatar(
         backgroundImage: AssetImage(
-          profile,
+          profileImg,
         ),
         radius: 50,
       ),
@@ -81,7 +81,7 @@ Widget leaderList() {
       child: ListTile(
         leading: const CircleAvatar(
           backgroundImage: AssetImage(
-            profile,
+            profileImg,
           ),
           radius: 25,
         ),

@@ -8,9 +8,9 @@ const String rateus = "assets/Icons/rateus.png";
 
 
 
-// const String rocket = "assets\Icons\dashboard.png";
-// const String rocket = "";
-// const String rocket = "";
+const String dashboard = "assets/Icons/dashboard.png";
+const String leaderboard = "assets/Icons/leaderboard.png";
+const String profile = "assets/Icons/profile.png";
 // const String rocket = "";
 // const String rocket = "";
 // const String rocket = "";

@@ -11,7 +11,7 @@ Widget topBar() {
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
         const Image(
-          image: AssetImage(profile),
+          image: AssetImage(profileImg),
           width: 50,
           height: 50,
         ),
