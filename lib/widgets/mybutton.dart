@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import '../constant/style.dart';
 
 Widget mybutton(
@@ -19,7 +17,7 @@ Widget mybutton(
         shape: MaterialStateProperty.all<RoundedRectangleBorder>(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(25.0),
-            side: BorderSide(color: primaryColor),
+            side: const BorderSide(color: primaryColor),
           ),
         ),
       ),
