@@ -10,7 +10,7 @@ String? Function(dynamic)? valid})
   return Padding(
     padding: const EdgeInsets.all(8.0),
     child: Container(
-      width: vwidth-80,
+      width: vwidth-50,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
           
@@ -21,7 +21,7 @@ String? Function(dynamic)? valid})
           myspacer(0.0, 3.0),
           Padding(
             padding: const EdgeInsets.only(left: 8,top: 8,bottom: 8),
-            child: Container(
+            child: SizedBox(
               height: 40,
                width: 40,
               //color: Colors.black,
@@ -33,7 +33,7 @@ String? Function(dynamic)? valid})
           ),
           myspacer(0.0, 5.0),
           SizedBox(
-              width: vwidth-200,
+              width: vwidth-150,
               child: TextFormField(
                 keyboardType: keyboardType,
                 validator:valid,

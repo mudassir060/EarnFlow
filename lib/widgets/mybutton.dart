@@ -8,7 +8,7 @@ Widget mybutton(
     required bool color,
     required bool textcolor}) {
   return SizedBox(
-    width: width,
+    width: width+30,
     height: 50,
     child: ElevatedButton(
       style: ButtonStyle(

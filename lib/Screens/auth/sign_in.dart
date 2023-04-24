@@ -25,22 +25,21 @@ class _sign_inState extends State<sign_in> {
     final _formKey = GlobalKey<FormState>();
 
     return Scaffold(
-        body: Form(
-      key: _formKey,
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: SingleChildScrollView(
+        body: SafeArea(
+          child: Form(
+              key: _formKey,
+              child: SingleChildScrollView(
           child: Column(children: [
             Stack(
               children: const [
-                Image(image: AssetImage(background)),
+                Image(image: AssetImage(background),),
                 Positioned(
+                  left: 35,
+                  top: 200,
                   child: Text(
                     'Sign In',
                     style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                   ),
-                  left: 35,
-                  top: 200,
                 ),
               ],
             ),
@@ -61,7 +60,7 @@ class _sign_inState extends State<sign_in> {
                 return null;
               },
             ),
-
+        
             mytextfield(
               "Password",
               passwordctrl,
@@ -82,57 +81,53 @@ class _sign_inState extends State<sign_in> {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Text("Forget Password?"),
+                const Text("Forget Password?"),
                 TextButton(
                     onPressed: () {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => Reset_password()),
+                            builder: (context) => const Reset_password()),
                       );
                     },
-                    child: Text(
+                    child: const Text(
                       "Reset",
-                      style: TextStyle(color:primaryColor),
+                      style: TextStyle(color: primaryColor),
                     ))
               ],
             ),
             myspacer(90.0, 0.0),
-
-            Container(
-              //height: 400,
-              child: Column(
-                children: [
-                  mybutton(
-                      width: vwidth - 80,
-                      function: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => navigat()),
-                        );
-                      },
-                      name: "Login",
-                      color: true,
-                      textcolor: true),
-                  myspacer(20.0, 0.0),
-                  mybutton(
-                      width: vwidth - 80,
-                      function: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => signUp_page()),
-                        );
-                      },
-                      name: "Create Account",
-                      color: false,
-                      textcolor: false),
-                ],
-              ),
+        
+            Column(
+              children: [
+                mybutton(
+                    width: vwidth - 80,
+                    function: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => navigat()),
+                      );
+                    },
+                    name: "Login",
+                    color: true,
+                    textcolor: true),
+                myspacer(20.0, 0.0),
+                mybutton(
+                    width: vwidth - 80,
+                    function: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => signUp_page()),
+                      );
+                    },
+                    name: "Create Account",
+                    color: false,
+                    textcolor: false),
+              ],
             ),
           ]),
-        ),
-      ),
-    ));
+              ),
+            ),
+        ));
   }
 }

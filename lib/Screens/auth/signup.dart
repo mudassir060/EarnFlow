@@ -28,8 +28,7 @@ class _signUp_pageState extends State<signUp_page> {
     var vheight = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
+      body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
            
@@ -38,13 +37,13 @@ class _signUp_pageState extends State<signUp_page> {
                 children: const [
                   Image(image: AssetImage(background)),
                   Positioned(
+                    left: 50,
+                    top: 150,
                     child: Text(
                       'Sign Up',
                       style:
                           TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                     ),
-                    left: 50,
-                    top: 150,
                   ),
                 ],
               ),
@@ -169,7 +168,7 @@ class _signUp_pageState extends State<signUp_page> {
                         },
                         name: "Login",
                         color: false,
-                        textcolor: false),
+                        textcolor: false),myspacer(10.0, 10.0)
                   ],
                 ),
               )
