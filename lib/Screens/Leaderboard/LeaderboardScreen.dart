@@ -76,7 +76,7 @@ Widget topImg(name, point) {
 
 Widget leaderList() {
   return Padding(
-    padding: const EdgeInsets.all(8.0),
+    padding: const EdgeInsets.only( left:4.0,right: 4, bottom: 4),
     child: Card(
       child: ListTile(
         leading: const CircleAvatar(

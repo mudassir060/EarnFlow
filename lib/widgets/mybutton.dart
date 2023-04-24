@@ -10,13 +10,12 @@ Widget mybutton(
     width: width,
     height: 50,
      child: ElevatedButton(
-     
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.all(color?primaryColor:whiteColor),
         shape: MaterialStateProperty.all<RoundedRectangleBorder>(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(25.0),
-            side: BorderSide(color: primaryColor),
+            side: const BorderSide(color: primaryColor),
           
           ),
         ),
