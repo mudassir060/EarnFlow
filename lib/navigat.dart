@@ -32,7 +32,7 @@ class _navigatState extends State<navigat> {
       ),
     ),
     TabItem(
-      Icons.search,
+      Icons.layers,
       "Leaderboard",
       Colors.orange,
       labelStyle: const TextStyle(
@@ -41,7 +41,7 @@ class _navigatState extends State<navigat> {
       ),
     ),
     TabItem(
-      Icons.layers,
+      Icons.person,
       "Profile",
       Colors.red,
       circleStrokeColor: Colors.black,
