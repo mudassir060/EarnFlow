@@ -48,24 +48,8 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
               ),
             ),
             Card(
-              child: ListTile(
-                leading: const CircleAvatar(
-                  backgroundImage: AssetImage(
-                    profile,
-                  ),
-                  radius: 25,
-                ),
-                title: const Text("Ali Khan"),
-                subtitle: Row(
-                  children: [
-                    Image.asset(
-                      gold_coin,
-                      height: 20,
-                    ),
-                    const Text("15421 (Pakistan)🇵🇰"),
-                  ],
-                ),
-                trailing: const Text("No. 4"),
+              child: Column(
+                children: [leaderList(),leaderList(),leaderList(),],
               ),
             )
           ],
@@ -87,5 +71,32 @@ Widget topImg(name, point) {
       Text(name.toString()),
       Text(point.toString()),
     ],
+  );
+}
+
+Widget leaderList() {
+  return Padding(
+    padding: const EdgeInsets.all(8.0),
+    child: Card(
+      child: ListTile(
+        leading: const CircleAvatar(
+          backgroundImage: AssetImage(
+            profile,
+          ),
+          radius: 25,
+        ),
+        title: const Text("Ali Khan"),
+        subtitle: Row(
+          children: [
+            Image.asset(
+              gold_coin,
+              height: 20,
+            ),
+            const Text("15421 (Pakistan)🇵🇰"),
+          ],
+        ),
+        trailing: const Text("No. 4"),
+      ),
+    ),
   );
 }
