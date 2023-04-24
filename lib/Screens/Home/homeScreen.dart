@@ -130,7 +130,7 @@ class _homeScreenState extends State<homeScreen> {
                                       ),
                                          Positioned(
                                         left: 40,
-                                        top: 80,
+                                        top: 75,
                                         child: Row(
                                           children: [
                                             Container(
@@ -140,10 +140,10 @@ class _homeScreenState extends State<homeScreen> {
                                                       BorderRadius.circular(5)),
                                               height: 20,
                                               width: 40,
-                                              child: const Center(
+                                              child:  Center(
                                                   child: Text(
-                                                "#1",
-                                                style: TextStyle(
+                                                "#$index",
+                                                style: const TextStyle(
                                                     fontWeight:
                                                         FontWeight.bold),
                                               )),
