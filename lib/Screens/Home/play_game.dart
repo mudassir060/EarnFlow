@@ -6,6 +6,7 @@ import '../../constant/images.dart';
 import '../../constant/style.dart';
 import '../../widgets/backButton.dart';
 import '../../widgets/cardwidget.dart';
+import '../../widgets/loadingError.dart';
 import '../../widgets/myspacer.dart';
 
 class game_page extends StatefulWidget {
@@ -26,8 +27,8 @@ class _game_pageState extends State<game_page> {
         child: Column(
           children: [
             Row(
-              children:  [
-               backButon(context),
+              children: [
+                backButon(context),
                 const Text(
                   "Play Games",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
@@ -43,6 +44,7 @@ class _game_pageState extends State<game_page> {
                 "Play and earn upto 10 EF", true),
             Card_widget(game_img4, "Guys Tumple Guts", "0.5", vwidth, vheight,
                 "Play and earn upto 10 EF", true),
+            loadingError(),
           ],
         ),
       ),
