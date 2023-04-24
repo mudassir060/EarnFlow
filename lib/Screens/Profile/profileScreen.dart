@@ -1,3 +1,4 @@
+import 'package:earnflow/constant/style.dart';
 import 'package:flutter/material.dart';
 
 import '../../constant/images.dart';
@@ -16,30 +17,33 @@ class _profileScreenState extends State<profileScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            Stack(
-              children: [
-                const CircleAvatar(
-                  radius: 55,
-                  child: CircleAvatar(
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Stack(
+                children: [
+                  const CircleAvatar(
                     radius: 55,
-                    backgroundImage: AssetImage(profile),
+                    child: CircleAvatar(
+                      radius: 55,
+                      backgroundImage: AssetImage(profile),
+                    ),
                   ),
-                ),
-                Positioned(
-                  bottom: 3,
-                  right: 3,
-                  child: CircleAvatar(
-                    radius: 20,
-                    backgroundColor: Colors.white,
-                    child: IconButton(
-                      onPressed: () {},
-                      icon: const Icon(
-                        Icons.camera_alt,
+                  Positioned(
+                    bottom: 3,
+                    right: 2,
+                    child: CircleAvatar(
+                      radius: 20,
+                      backgroundColor: primaryColor,
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: const Icon(
+                          Icons.camera_alt,
+                        ),
                       ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
             const Center(child: Text("profileScreen")),
           ],
